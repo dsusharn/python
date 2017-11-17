@@ -8,7 +8,7 @@ def fibonacci(number):
     else:
         return fibonacci(number-1) + fibonacci(number - 2)
 
-index = input("Enter the index of element of fibonacci row: \n") 
+index = int(input("Enter the index of element of fibonacci row: \n"))
 
 print("This element is")
 print(fibonacci(index))
