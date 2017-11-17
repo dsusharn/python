@@ -14,7 +14,7 @@ def fibonacci_iterative(number):
         second = fibonacci
     return fibonacci
 
-index = input("Enter the index of element of fibonacci row: \n") 
+index = int(input("Enter the index of element of fibonacci row: \n")) 
 
 print("This element is")
 print(fibonacci_iterative(index))
