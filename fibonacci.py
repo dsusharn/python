@@ -1,14 +1,14 @@
-def fibonacci(nb):
-    if nb < 0:
+def fibonacci(number):
+    if number <= 0:
         print("Incorrect input")
-    elif nb==1:
+    elif number == 1:
         return 0
-    elif nb==2:
+    elif number == 2:
         return 1
     else:
-        return fibonacci(nb-1)+fibonacci(nb-2)
+        return fibonacci(number-1) + fibonacci(number - 2)
 
-a = input()
+index = input("Enter the index of element of fibonacci row: \n") 
 
-print (fibonacci(a))
-    
+print("This element is")
+print(fibonacci(index))
